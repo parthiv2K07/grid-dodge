@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grid Dodge Game</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- START SCREEN -->
+  <div id="startScreen" class="screen active">
+    <h1>Grid Dodge Game</h1>
+    <p>
+      Rules:<br>
+      • Use Arrow Keys to move<br>
+      • Avoid the red enemies<br>
+      • Score increases with time
+    </p>
+    <button id="startBtn">Start Game</button>
+  </div>
+
+  <!-- GAME SCREEN -->
+  <div id="gameScreen" class="screen">
+    <div class="top-bar">
+      <span>Score: <span id="score">0</span></span>
+    </div>
+    <div id="grid"></div>
+  </div>
+
+  <!-- GAME OVER SCREEN -->
+  <div id="gameOverScreen" class="screen">
+    <h1>Game Over</h1>
+    <p>Your Score: <span id="finalScore">0</span></p>
+    <button id="restartBtn">Restart</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html>
