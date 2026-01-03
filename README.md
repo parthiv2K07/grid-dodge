@@ -29,4 +29,4 @@ The goal is to survive as long as possible and score points.
 - Event Handling
 
 ## GitHub Repository
-https://github.com/parthiv2K07/grid-dodge-game
+https://github.com/parthiv2K07/grid-dodge
